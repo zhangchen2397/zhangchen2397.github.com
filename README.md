@@ -68,4 +68,4 @@ function iAmClearlyCrazy( data ) {
     $( "#chatResult" ).prepend("<p>" + data.from + " is talking to himself.</p>");
 }
 
- mediator.Subscribe( amITalkingToMyself, iAmClearlyCrazy );
+mediator.Subscribe( amITalkingToMyself, iAmClearlyCrazy );
